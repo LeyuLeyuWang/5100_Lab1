@@ -1,6 +1,7 @@
 package edu.neu.mgen;
 
 import java.util.ArrayList;
+
 /**
  * Hello world!
  *
@@ -13,7 +14,6 @@ public class App {
 
         int[] x = { 1, 2, 3, 4, 5 };
         int[] y = { 6, 7, 8, 9, 10 };
-
 
         // Create another array z of length 5, the elements of which are the max of the
         // respective numbers of the two arrays x and y.
@@ -38,7 +38,7 @@ public class App {
             }
         }
         System.out.println(" }");
-        
+
         System.out.print("Array y = { ");
         for (int i = 0; i < 5; i++) {
             System.out.print(y[i]);
@@ -83,7 +83,6 @@ public class App {
             switchedName = switchedName.substring(0, 1).toUpperCase() + switchedName.substring(1).toLowerCase();
             switchedNames.add(switchedName);
         }
-
 
         // Organize a nice-looking output to the terminal that looks like the following:
         // Names = { list of names here separated by coma }
